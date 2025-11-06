@@ -3,3 +3,111 @@ body {
   padding: 0;
   background-color: #f4f4f9;
 }
+
+
+/* ===== MOBILE FIXES ===== */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#root {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Force mobile responsiveness */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 80px 15px 30px !important;
+    min-height: 100vh !important;
+    overflow-x: hidden !important;
+  }
+  
+  .hero-container {
+    grid-template-columns: 1fr !important;
+    gap: 25px !important;
+    text-align: center !important;
+    padding: 0 10px !important;
+  }
+  
+  .hero-name {
+    font-size: 2.2rem !important;
+    line-height: 1.1 !important;
+    margin-bottom: 10px !important;
+    word-wrap: break-word !important;
+  }
+  
+  .hero-titles {
+    flex-direction: column !important;
+    gap: 8px !important;
+    margin-bottom: 15px !important;
+    flex-wrap: wrap !important;
+  }
+  
+  .title-item {
+    font-size: 0.9rem !important;
+    padding: 5px 10px !important;
+    display: inline-block !important;
+  }
+  
+  .title-divider {
+    display: none !important;
+  }
+  
+  .hero-description {
+    font-size: 0.95rem !important;
+    line-height: 1.4 !important;
+    margin-bottom: 25px !important;
+    max-width: 100% !important;
+    padding: 0 5px !important;
+  }
+  
+  .hero-buttons {
+    flex-direction: column !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+  
+  .btn {
+    width: 100% !important;
+    padding: 10px 15px !important;
+    font-size: 0.9rem !important;
+  }
+  
+  .profile-photo {
+    width: 200px !important;
+    height: 250px !important;
+    margin: 0 auto !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-section {
+    padding: 70px 10px 20px !important;
+  }
+  
+  .hero-name {
+    font-size: 1.8rem !important;
+  }
+  
+  .hero-greeting {
+    font-size: 1rem !important;
+    margin-bottom: 5px !important;
+  }
+  
+  .profile-photo {
+    width: 180px !important;
+    height: 220px !important;
+  }
+  
+  .hero-description {
+    font-size: 0.9rem !important;
+  }
+}
