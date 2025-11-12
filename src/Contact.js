@@ -5,8 +5,8 @@ function Contact() {
     {
       icon: "📧",
       label: "Email",
-      value: "Vishwastomar0702@gmail.com",
-      link: "mailto:Vishwastomar0702@gmail.com"
+      value: "vishwassinghtomar787@gmail.com",
+      link: "mailto:vishwassinghtomar787@gmail.com"
     },
     {
       icon: "📱",
